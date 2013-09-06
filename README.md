@@ -1,5 +1,7 @@
 ## Adroit age ##
 
+[![Gem Version](https://badge.fury.io/rb/adroit-age.png)](http://badge.fury.io/rb/adroit-age)
+
 This gem is used to find the age using date of birth, its also works for leap years.
 
 ### Installation ###
