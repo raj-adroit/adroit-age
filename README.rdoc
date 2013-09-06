@@ -4,7 +4,7 @@
 
 This gem is used to find the age using date of birth, its also works for leap years.
 
-### Installation ###
+==  Installation 
 
     gem install adroit-age
 
@@ -12,7 +12,7 @@ Insert into your gem file
 
     gem "adroit-age"
 
-### Usage ###
+==  Usage 
 
     age = AdroitAge.find_age("23/01/1990")
 

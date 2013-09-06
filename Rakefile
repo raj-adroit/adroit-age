@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "adroit-age"
   gem.homepage = "http://github.com/raj-adroit/adroit-age"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{adroit-age gem to find age}
+  gem.description = %Q{A simple gem to find age using date of birth - works for leap years also}
   gem.email = "raja.nice23@gmail.com"
   gem.authors = ["Raj Adroit"]
   # dependencies defined in Gemfile

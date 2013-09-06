@@ -69,6 +69,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.0)
   jeweler (~> 1.8.7)
-  rcov (= 0.9.11)
+  rcov
   rdoc (~> 3.12)
   shoulda
