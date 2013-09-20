@@ -1,10 +1,10 @@
 = adroit-age
 
-[![Gem Version](https://badge.fury.io/rb/adroit-age.png)](http://badge.fury.io/rb/adroit-age)
+{<img src="https://badge.fury.io/rb/adroit-age.png" alt="Gem Version" />}[http://badge.fury.io/rb/adroit-age]
 
 This gem is used to find the age using date of birth, its also works for leap years.
 
-### Installation ###
+== Installation
 
     gem install adroit-age
 
@@ -12,16 +12,15 @@ Insert into your gem file
 
     gem "adroit-age"
 
-### Usage ###
+== Usage
+	
+	require 'adroit-age'
 
     dob =  Date.new(1990,1,23)
-
     or
-
     dob = "23/01/1990".to_date
 
     age = dob.find_age
-    
     #=> 23
 
 == Contributing to adroit-age
