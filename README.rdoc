@@ -14,7 +14,15 @@ Insert into your gem file
 
 ### Usage ###
 
-    age = AdroitAge.find_age("23/01/1990")
+    dob =  Date.new(1990,1,23)
+
+    or
+
+    dob = "23/01/1990".to_date
+
+    age = dob.find_age
+    
+    #=> 23
 
 == Contributing to adroit-age
  

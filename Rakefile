@@ -1,3 +1,4 @@
+
 # encoding: utf-8
 
 require 'rubygems'
@@ -21,6 +22,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{A simple gem to find age using date of birth - works for leap years also}
   gem.email = "raja.nice23@gmail.com"
   gem.authors = ["Raj Adroit"]
+  gem.files = Dir.glob('lib/**/*.rb')
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

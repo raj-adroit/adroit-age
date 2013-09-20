@@ -1,7 +1,12 @@
 require 'helper'
 
 class TestAdroitAge < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
-  end
+
+   setup do
+       @age = AdroitAge.new "23/01/1990"
+   end
+
+   should "Return age for correct date and date format" do
+      assert_equal 23, @age.find
+    end
 end
