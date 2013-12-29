@@ -14,7 +14,7 @@ Insert into your gem file
 
 == Usage
 	
-	require 'adroit-age'
+    require 'adroit-age'
 
     dob =  Date.new(1990,1,23)
     or
