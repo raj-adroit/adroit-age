@@ -4,8 +4,8 @@ class Date
 		Adroit::Age.new.find_year self
 	end
 
-	def find_full_age year_cust = nil, month_cust = nil
-		Adroit::Age.new.find_full self, year_cust, month_cust
+	def find_age_with_month year_cust = nil, month_cust = nil
+		Adroit::Age.new.find_with_month self, year_cust, month_cust
 	end
 
 end

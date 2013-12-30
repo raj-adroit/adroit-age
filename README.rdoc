@@ -23,6 +23,18 @@ Insert into your gem file
     age = dob.find_age
     #=> 23
 
+== Update v2.0
+		
+		dob.find_age_with_month
+		#=> "23 years and 11 months"
+
+		dob.find_age_with_month("y","m")
+ 		#=> "23 y and 11 m"
+
+ 		dob.find_age_with_month
+ 		#=> "23 years and 1 month"
+
+
 == Contributing to adroit-age
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
