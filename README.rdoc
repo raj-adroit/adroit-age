@@ -25,14 +25,14 @@ Insert into your gem file
 
 == Update v2.0
 		
-		dob.find_age_with_month
-		#=> "23 years and 11 months"
+    dob.find_age_with_month
+    #=> "23 years and 11 months"
 
-		dob.find_age_with_month("y","m")
- 		#=> "23 y and 11 m"
+    dob.find_age_with_month("y","m")
+    #=> "23 y and 11 m"
 
- 		dob.find_age_with_month
- 		#=> "23 years and 1 month"
+    dob.find_age_with_month
+    #=> "23 years and 1 month"
 
 
 == Contributing to adroit-age
