@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "adroit-age"
-  s.version = "1.1.1"
+  s.version = "2.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Raj Adroit"]
-  s.date = "2013-12-29"
+  s.date = "2014-01-01"
   s.description = "A simple gem to find age using date of birth - works for leap years also"
   s.email = "raja.nice23@gmail.com"
   s.extra_rdoc_files = [
