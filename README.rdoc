@@ -12,7 +12,7 @@ Insert into your gem file
 
     gem "adroit-age"
 
-== Usage
+== Usage v1.0
 	
     require 'adroit-age'
 
@@ -21,18 +21,18 @@ Insert into your gem file
     dob = "23/01/1990".to_date
 
     age = dob.find_age
-    #=> 23
+    #=> 26
 
 == Update v2.0
 		
     dob.find_age_with_month
-    #=> "23 years and 11 months"
+    #=> "26 years and 11 months"
 
     dob.find_age_with_month("y","m")
-    #=> "23 y and 11 m"
+    #=> "26 y and 11 m"
 
     dob.find_age_with_month
-    #=> "23 years and 1 month"
+    #=> "26 years and 1 month"
 
 
 == Contributing to adroit-age
